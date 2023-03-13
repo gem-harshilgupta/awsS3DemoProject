@@ -1,0 +1,17 @@
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAU7EUHKGELI6743NR
+        secret-key: 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
+        region:
+          static: us-east-1
+        stack:
+          auto: false
+
+application:
+  bucket:
+    name: awss3demoproject
+
+server:
+  port: 9090
